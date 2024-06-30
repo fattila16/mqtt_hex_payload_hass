@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mqtt-hass"
+version = "0.1.0"
+description = "Dev project to develop HEX based MQTT pub/sub functions for apa HASS"
+authors = ["f.attila16 <f.attila16@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.4"
+paho-mqtt = "^2.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.8"
+pyright = "^1.1.366"
+pytest = "^8.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
